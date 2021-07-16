@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210114
 
 # install python and conda
 RUN apt-get update && apt-get install -y python3 git wget bzip2 
